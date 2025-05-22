@@ -1,176 +1,398 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ava Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Ava</title>
-                                    <defs>
-                                        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="logo-gradient-b">
-                                            <stop stop-color="#39D8C8" offset="0%"/>
-                                            <stop stop-color="#BCE4F4" offset="47.211%"/>
-                                            <stop stop-color="#838DEA" offset="100%"/>
-                                        </linearGradient>
-                                        <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-a"/>
-                                        <linearGradient x1="23.065%" y1="25.446%" y2="100%" id="logo-gradient-c">
-                                            <stop stop-color="#1274ED" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#1274ED" offset="100%"/>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="logo-gradient-d" fill="#fff">
-                                            <use xlink:href="#logo-gradient-a"/>
-                                        </mask>
-                                        <use fill="url(#logo-gradient-b)" xlink:href="#logo-gradient-a"/>
-                                        <path fill="url(#logo-gradient-c)" mask="url(#logo-gradient-d)" d="M-16-16h32v32h-32z"/>
-                                    </g>
-                                </svg>
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        <main>
-            <section class="features section text-center">
-                <div class="container">
-                    <div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".24" fill="#A0A6EE"/>
-                                                <path d="M26 54l28-28" stroke="#838DEA" stroke-width="2" stroke-linecap="square"/>
-                                                <path d="M26 46l20-20M26 38l12-12M26 30l4-4M34 54l20-20M42 54l12-12" stroke="#767DE1" stroke-width="2" stroke-linecap="square"/>
-                                                <path d="M50 54l4-4" stroke="#838DEA" stroke-width="2" stroke-linecap="square"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="feature-title">AI Training for Teams</h3>
-                                    <p class="text-sm">Practical, tool-based training designed for non-technical professionals and busy teams. Learn how to actually use AI, not just hear about it.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".24" fill="#75ABF3"/>
-                                                <path d="M34 52V35M40 52V42M46 52V35M52 52V42M28 52V28" stroke="#4D8EF7" stroke-width="2" stroke-linecap="square"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="feature-title">Micropivot Agents</h3>
-                                    <p class="text-sm">Smart AI copilots that guide your team through strategic decisions in real time, without replacing your judgment.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-                                            <g fill="none" fill-rule="evenodd">
-                                                <path d="M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".32" fill="#FF97AC"/>
-                                                <path stroke="#FF6D8B" stroke-width="2" stroke-linecap="square" d="M49 45h6V25H35v6M43 55h2v-2M25 53v2h2M27 35h-2v2"/>
-                                                <path stroke="#FF6D8B" stroke-width="2" stroke-linecap="square" d="M43 35h2v2M39 55h-2M33 55h-2M39 35h-2M33 35h-2M45 49v-2M25 49v-2M25 43v-2M45 43v-2"/>
-                                            </g>
-                                        </svg>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-                                    </div>
-                                    <h3 class="feature-title">AI-Driven Management Consulting</h3>
-                                    <p class="text-sm">We blend AI tools with classic consulting to improve workflows, decisions, and execution across teams.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-                                            <g transform="translate(24 25)" fill="none" fill-rule="evenodd">
-                                                <path d="M24.066 36.627c6.628 0 10.087-16.79 10.087-23.418C34.153 6.582 29.128 4 22.501 4 15.874 4 0 17.507 0 24.135c0 6.627 17.439 12.492 24.066 12.492z" fill-opacity=".32" fill="#A0EEE5"/>
-                                                <circle stroke="#39D8C8" stroke-width="2" stroke-linecap="square" cx="5" cy="4" r="4"/>
-                                                <path stroke="#39D8C8" stroke-width="2" stroke-linecap="square" d="M23 22h8v8h-8zM11 10l9 9"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="feature-title">AI Adoption Enablement</h3>
-                                    <p class="text-sm">Focused on the “people” side of transformation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!-- <span class="icon fa-gem"></span> -->
+							<i class="fa-solid fa-brain fa-3x"></i>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>NOESIS AI</h1>
+								<h3><p>Leadership in the Age of Intelligence.</p></h3>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#EnterpriseAIPrograms" style="font-weight: bold;">Enterprise AI Programs</a></li>
+								<li><a href="#MicroPivotAIAgents" style="font-weight: bold;">MicroPivot AI Agents</a></li>
+								<li><a href="#EnterpriseAIBriefNewsletter" style="font-weight: bold;">Enterprise AI Brief Newsletter</a></li>
+								<li><a href="#AboutUs" style="font-weight: bold;">About Us</a></li>
+								<li><a href="#ContactUs" style="font-weight: bold;">Contact Us</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
 
-            <section class="newsletter section">
-                <div class="container-sm">
-                    <div class="newsletter-inner section-inner">
-                        <div class="newsletter-header text-center is-revealing">
-                            <h2 class="section-title mt-0">Sign up for the Enterprise AI Brief Newsletter</h2>
-                            <p class="section-paragraph">Practical insights for teams navigating change.</p>
-                        </div>
-                        <div class="footer-form newsletter-form field field-grouped is-revealing">
-                            <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Subscribe</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+				<!-- Main -->
+					<div id="main">
 
-        <footer class="site-footer text-light">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                <title>Ava</title>
-                                <defs>
-                                    <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-footer-a"/>
-                                    <linearGradient x1="50%" y1="50%" y2="100%" id="logo-gradient-footer-b">
-                                        <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FFF" offset="100%"/>
-                                    </linearGradient>
-                                </defs>
-                                <g fill="none" fill-rule="evenodd">
-                                    <mask id="logo-gradient-footer-c" fill="#fff">
-                                        <use xlink:href="#logo-gradient-footer-a"/>
-                                    </mask>
-                                    <use fill-opacity=".32" fill="#FFF" xlink:href="#logo-gradient-footer-a"/>
-                                    <path fill="url(#logo-gradient-footer-b)" mask="url(#logo-gradient-footer-c)" d="M-16-16h32v32h-32z"/>
-                                </g>
-                            </svg>
+						<!-- Intro -->
+							<article id="EnterpriseAIPrograms">
+								<h2 class="major">Enterprise AI Programs</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p><strong>Noesis AI</strong> helps organizations move beyond the buzz and into meaningful transformation. Our approach combines three core services to support your entire AI journey:</p>
 
-                        </a>
-                    </div>
-                    
-                    <div class="footer-copyright">&copy; 2018 Ava, all rights reserved</div>
-                </div>
-            </div>
-        </footer>
-    </div>
+								<p><strong>AI Training for Teams:</strong> We offer practical, hands-on training tailored for non-technical professionals and busy teams. Our workshops go beyond theory to teach exactly how to use tools like ChatGPT and other AI platforms in everyday work—whether for content creation, research, analysis, or decision support.</p>
 
-    <script src="dist/js/main.min.js"></script>
-</body>
+								<p><strong>AI-Driven Management Consulting:</strong> We blend traditional consulting methods with modern AI capabilities to help teams improve workflows, enhance productivity, and make better decisions. From strategic alignment to operational execution, we focus on embedding AI where it actually moves the needle.</p>
+
+								<p><strong>AI Adoption Enablement:</strong> AI transformation fails when people are left behind. That’s why we focus heavily on the soft side of AI: change management, process redesign, and cultural integration. We help organizations go beyond pilot projects, ensuring real adoption, trust, and long-term value.</p>
+
+								<p>Together, these services are designed to make AI not just a project, but a capability—something your teams understand, apply, and grow with. Whether you’re at the start of your AI journey or scaling across the enterprise, <strong>Noesis AI</strong> equips you to lead with intelligence.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="MicroPivotAIAgents">
+								<h2 class="major">MicroPivot AI Agents</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>At the core of <strong>Noesis AI</strong> offering is the <strong>Micropivot Agent</strong>; a strategic intelligence assistant embedded within your organization to ensure that daily operations and decisions stay aligned with long-term goals. Unlike traditional operational tools, this agent doesn not just optimize for efficiency—it safeguards strategic coherence. It continuously monitors team actions, communication patterns, and execution signals to detect drift from core objectives. When misalignment emerges, it delivers timely nudges, insights, or reframing suggestions to guide teams back on course.</p>
+
+								<p><strong>But it doesn not stop there.</strong></p>
+
+								<p>The Micropivot Agent also acts as a forward-looking simulator, modeling how different decisions could shape the future of your strategy. Whether you are exploring a new product path, adjusting pricing, or reallocating resources, the agent helps visualize downstream effects—so you can pivot intelligently, not reactively. It's like having a living, breathing strategy coach that not only understands where you're headed, but helps you get there in real time.</p>
+								
+							</article>
+
+							<article id="EnterpriseAIBriefNewsletter">
+								<h2 class="major">Enterprise AI Brief</h2>
+								
+								<p><strong>The Enterprise AI Brief</strong> explores how artificial intelligence is reshaping the way organizations think, lead, and operate. Each issue breaks down complex AI trends into clear insights for professionals, with a focus on strategic adoption, real-world use cases, and the human side of transformation.</p>
+							
+								<p>Designed for leaders, builders, and curious minds who want more than just AI hype, this is about making intelligence actionable.</p>
+							
+								<div style="text-align: center;">
+									<a href="https://enterpriseaibrief.substack.com/" class="button primary" target="_blank">Subscribe Now</a>
+								</div>
+							</article>
+							
+						<!-- About -->
+							<article id="AboutUs">
+								<h2 class="major">About Us</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p><strong>Noesis AI</strong> helps organizations navigate the real-world challenges of adopting artificial intelligence. We focus on the messy middle, where strategy meets execution, and where AI success depends more on people and process than just models and tools.</p>
+
+								<p>The firm was founded by someone who's spent years studying and working in strategy. My PhD research focused on strategy as practice—not the big-picture planning, but how decisions actually happen in real teams, day to day. That work directly inspired our concept of <strong>Micropivot Agents</strong>: AI-powered assistants that help organizations stay strategically aligned in real time by noticing drift, simulating the future impact of decisions, and offering smart nudges.</p>
+
+								<p>But tools alone don't solve transformation. What most companies miss is the human side of AI: the trust, the adoption, the organizational change. That's where Noesis AI comes in. We offer practical training for non-technical teams, help leaders embed AI into workflows, and support the real transformation—on the ground, not just in the boardroom.</p>
+
+								<p>Right now, we're a small firm with a clear point of view: AI will only work if people understand it, trust it, and can use it to make smarter decisions. That's what we're here to build.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="ContactUs">
+								<h2 class="major">Contact Us</h2>
+								<form action="https://formsubmit.co/sonia@noesisai.tech" method="POST">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<!-- <ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul> -->
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/sonia-sarrami/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://substack.com/@soniasarrami" class="icon solid fa-newspaper"><span class="label">Substack</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; NOESIS AI.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
